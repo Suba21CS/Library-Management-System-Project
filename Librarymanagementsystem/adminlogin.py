@@ -48,7 +48,7 @@ frame1.grid(row=0, column=1, padx=50, pady=50)
 log = Label(frame1, text='Login', font=('times', 20, 'bold'), fg='black',bg='white')
 log.grid(row=0, column=0, columnspan=2, sticky=S)
 
-name = Label(frame1, text='Username', font=('times', 20, 'bold'), fg='black',bg='white')
+name = Label(frame1, text='Adminname', font=('times', 20, 'bold'), fg='black',bg='white')
 name.grid(row=1, column=0, padx=10, pady=10)
 n = Entry(frame1, width=20, font=('times', 15, 'bold'),highlightthickness=1)
 n.config(highlightcolor='black',highlightbackground='black')
