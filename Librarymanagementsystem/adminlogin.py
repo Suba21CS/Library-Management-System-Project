@@ -26,7 +26,7 @@ def sub():
 
         if res:
             w.destroy()
-            import main1
+            import adminmodule
             return True
         else:
             if e.get()!= '' or p.get != '':
